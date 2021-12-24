@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-2"
   access_key = "AKIAU5756W5HA4WLSMNU"
-  secret_key = "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"
+  secret_key = ""
 }
 
 data "aws_availability_zones" "available"{}
