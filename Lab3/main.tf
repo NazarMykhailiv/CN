@@ -11,7 +11,7 @@ resource "aws_instance" "server" {
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.server.id]
   tags = {
-    Name = "TestInstance"
+    Name = "UbuntuServer"
   }
 }
 
@@ -45,6 +45,6 @@ resource "aws_subnet" "my_subnet" {
   cidr_block        = "10.0.1.0/24"
 
   tags = {
-    Name = "Subnet 1"
+    Name = "Subnet"
   }
 }
